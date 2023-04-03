@@ -1,0 +1,51 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 23%;
+    border-radius: 1em;
+    border: 2px solid #e33d33;
+    box-shadow: 5px 5px 2px rgb(170, 1, 1);
+    background-color: #ffffe9;
+    color: #fff;
+    
+  }
+  
+  .card .id {
+    margin: 1em 0;
+    background-color: #e33d33;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .title {
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 2px 2px #000000;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  
+  .card .btn {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+  .card .btn:hover {
+    background-color: #fff83c;
+    color: #000000;
+  }

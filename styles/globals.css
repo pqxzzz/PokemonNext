@@ -1,0 +1,15 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ee3939;
+
+}
+.main-container{
+    min-height: 70vh;
+}
+h1{
+    -webkit-text-stroke: 2px #000000;
+     text-shadow: 2px 2px #000000;
+}
