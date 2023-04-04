@@ -1,5 +1,5 @@
 import styles from '../styles/About.module.css'
-
+import charizard from '../public/images/charizard.png'
 import Image from 'next/image'
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
         Java Script, Html, Css, React 
       </p>
       <Image
-        src="/images/charizard.png"
+        src={charizard}
         alt="Charizard"
         width="300"
         height="300"
