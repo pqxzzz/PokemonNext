@@ -7,7 +7,7 @@ export default function About() {
     <div className={styles.about}>
       <h1>Sobre o projeto</h1>
       <p>
-        Pokemos obtidos por uma API e pagina
+        Pokemons obtidos por uma API e pagina
         feita apartir de conhecimentos de 
         Java Script, Html, Css, React 
       </p>
