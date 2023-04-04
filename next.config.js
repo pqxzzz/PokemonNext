@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ["raw.githubusercontent.com"],
   },
+  basePath: '/PokemonNext',
 };
 
 module.exports = nextConfig;
