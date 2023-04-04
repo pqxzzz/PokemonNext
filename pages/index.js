@@ -1,4 +1,6 @@
 
+
+
 // import styles from '@/styles/Home.module.css'
 // export async function getStaticProps(){
 //   const maxPokemons = 251
@@ -31,7 +33,7 @@
 // }
 
 
-
+import pokebola from "../public/images/pokeball.png"
 
 import Card from "../components/Card"
 
@@ -67,7 +69,7 @@ export default function Home({ pokemons }) {
           Pokemon <span>Next</span>
         </h1>
         <Image className={styles.logoimg}
-          src="/images/pokeball.png"
+          src={pokebola}
           width="50"
           height="50"
           alt="PokeNext"
